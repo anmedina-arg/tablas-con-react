@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Tabla from "./components/table";
 
 function App() {
   return (
     <div>
-      HOLA, SOY UN PROYECTO DE React
-      y acabo de instalar nodemon
+      <Tabla/>
     </div>
   );
 }
